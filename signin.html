@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+</head>
+<body class="bg-gray-100">
+    <div class="flex justify-center items-center min-h-screen">
+        <div class="bg-white p-8 max-w-md w-full">
+            <h1 class="text-5xl text-center text-green-500 font-bold mb-4">HOME<span class="text-gray-400">OWN</span></h1>
+            <h2 class="text-2xl text-black font-semibold text-center mb-4">Sign up for an account</h2>
+            <p class="text-gray-400 text-center mb-4">Not Registered yet? <a href="signup.html" class="text-green-500">Sign in</a></p>
+
+            <form>
+                <div class="mb-4">
+                    <label for="email" class="text-black text-lg font-medium">Email Address</label>
+                    <input type="email" id="email" class="w-full border border-gray-400 rounded">
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="text-black text-base font-medium">Password</label>
+                    <input type="password" id="password" class="w-full border border-gray-400 rounded">
+                </div>
+                <div class="mb-2 flex items-center">
+                    <input type="checkbox" id="remember" class="mr-2">
+                    <label for="remember" class="text-gray-400 text-lg">Remember me</label>
+                </div>
+                <div class="mb-4">
+                    <a href="#" class="text-green-500 font-semibold text-lg">Forgot Password?</a>
+                </div>
+                <button type="submit" class="w-full text-white text-center text-lg py-2 rounded bg-green-500 transition duration-300"><a href="home.html">Sign up</a></button>
+            </form>
+
+            <div class="mt-4 flex justify-between items-center">
+                <hr class="border-gray-300 w-1/4">
+                <span class="text-gray-600">Or continue with</span>
+                <hr class="border-gray-300 w-1/4">
+            </div>
+
+            <div class="mt-4 flex justify-center">
+                <button class="bg-green-500 text-white text-lg px-4 py-2 rounded-full mr-4">Twitter</button>
+                <button class="bg-green-500 text-white text-lg px-4 py-2 rounded-full">Gmail</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
